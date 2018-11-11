@@ -14,12 +14,13 @@ function plugin(Vue, coog) {
 
   Vue.coog = coog
 
-  Object.defineProperties(Vue.prototype, '$coog', {
+  Object.defineProperties(Vue.prototype, {
+    $coog: {
       get() {
         return coog
       }
     },
-  )
+  })
 }
 
 if (typeof exports == "object") {
