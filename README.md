@@ -1,5 +1,5 @@
 ## vue-co-dialog
-基于[co-dialog.js](https://github.com/ZWLTZ/vue-co-dialog) `v2.0.8`弹出框 和 依赖于[vue.js](https://cn.vuejs.org/v2/guide/)`2.5.17`框架封装.
+基于[co-dialog.js](https://github.com/ZWLTZ/co-dialog) `v2.0.8`弹出框 和 依赖于[vue.js](https://cn.vuejs.org/v2/guide/)`2.5.17`框架封装.
 
 ## install
   - npm(cmd)
