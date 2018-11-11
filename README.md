@@ -23,7 +23,7 @@ Vue.use(VueCoog, coog)
 于是你就可以获得vue绑定的$coog弹出框的API.
 你可以想下面这样调用$coog:
 ```js
-Vue.$coog.app('.coog').use('Test', '测试完成', 'success');
+Vue.$coog.app('.coog').use('Test', '测试完成', 'success').show();
 
-this.$coog.app('.coog').use('Test', '测试完成', 'success');
+this.$coog.app('.coog').use('Test', '测试完成', 'success').show();
 ```
